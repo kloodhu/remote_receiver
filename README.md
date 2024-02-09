@@ -1,5 +1,6 @@
 # remote_receiver
-Temporary remote_receiver component for Esphome
+Temporary remote_receiver component for Esphome from jorre05.
+2024.febr.09. : update files from esphome.
 
 When using a remote_receiver in an ESP32-C3 project the receiver must be on channel 3 or 4. @RENOxDECEPTION reported that for a ESP32-S3 the receiver must be on channel 5, 6, 7 or 8. The current Esphome code has no option for that. Adding two dummy transmitters to push the receiver on channel 3 or beond will work, but that solution breaks the Neopixel bus.
 
